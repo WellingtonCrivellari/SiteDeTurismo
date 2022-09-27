@@ -1,0 +1,236 @@
+@media screen and (max-width:564px){
+
+        /*Header*/
+
+        nav{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav ul li a{
+            font-size: 12px;
+        }
+    
+        .area-logo{
+            height: 55%;
+        }
+    
+        /*flex-t*/
+    
+        .flex-t{
+            flex-direction: column;
+            gap: 30px;
+        }
+    
+        .ft-c{
+            order: 1;
+            width: 80%;
+            height: 280px;
+            align-items: flex-start;
+        }
+    
+        .ft-c p{
+            align-self: flex-start;
+            font-size: 20px;
+        }
+    
+        .ft-img{
+            width: 80%;
+        }
+    
+        /*q-somos*/
+    
+        .q-somos{
+            flex-direction: column;
+        }
+    
+        .q-img{
+            width:80%;
+        }
+    
+        .q-conteudo{
+            width: 80%;
+        }
+    
+        /*serviço*/
+    
+        .serviço{
+            width: 100%;
+            flex-direction: column;
+            height: auto;
+            gap:50px;
+        }
+
+        .serviço figure{
+            height: 280px;
+        }
+
+        .serviço figure img{
+            width: 25%;
+        }
+
+        .serviço .btn{
+            width: 40%;
+        }
+    
+        /*Planos*/
+    
+        .planos.largura-seção{
+            width: 100%;
+        }
+    
+    
+        .caixa-p{
+    
+            width: 95vw;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+    
+        .item-p{
+            width: 60%;
+        }
+    
+        .item-p:hover{
+            transform: translateY(-20px);
+        }
+    
+        .p1{
+            align-self: unset;
+            height: 250px;  
+        }
+    
+        .p2{
+            align-self: unset;
+            height: 350px;
+        }
+    
+        .p3{
+            height: 350px;
+        }
+
+        /*Footer*/
+
+        footer{
+            font-size: 12px;
+        }
+        
+        footer small:nth-of-type(2){
+            margin-left: 5px;
+        }
+    }
+    
+
+
+@media  screen and (min-width:565px) and (max-width:799px) {
+
+    /*Header*/
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .area-logo{
+        height: 55%;
+    }
+
+    /*flex-t*/
+
+    .flex-t{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .ft-c{
+        order: 1;
+        width: 80%;
+        height: 280px;
+        align-items: flex-start;
+    }
+
+    .ft-c p{
+        align-self: flex-start;
+        font-size: 20px;
+    }
+
+    .ft-img{
+        width: 80%;
+    }
+
+    /*q-somos*/
+
+    .q-somos{
+        flex-direction: column;
+    }
+
+    .q-img{
+        width:80%;
+    }
+
+    .q-conteudo{
+        width: 80%;
+    }
+
+    /*serviço*/
+
+    .serviço{
+        width: 100%;
+    }
+
+    /*Planos*/
+
+    .planos.largura-seção{
+        width: 100%;
+    }
+
+
+    .caixa-p{
+
+        width: 95vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .item-p{
+        width: 40%;
+    }
+
+    .item-p:hover{
+        transform: translateY(-20px);
+    }
+
+    .p1{
+        align-self: unset;
+        height: 250px;  
+    }
+
+    .p2{
+        align-self: unset;
+        height: 350px;
+    }
+
+    .p3{
+        height: 350px;
+    }
+    
+}
+
+
+
+@media  screen and (min-width:800px) and (max-width:1000px) {
+
+    .caixa-p{
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .planos.largura-seção{
+        width: 100%;
+    }
+    
+}
