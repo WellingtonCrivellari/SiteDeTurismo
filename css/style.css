@@ -29,7 +29,7 @@ body{
 /*Header*/
 
 header{
-    background-color: #122A57;
+    background-color: red;
     display: flex;
     justify-content: center;
 }
